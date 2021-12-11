@@ -1,25 +1,43 @@
 {
   "schemaVersion": 1,
-  "id": "unsaddleeeee",
+  "id": "unsaddle",
   "version": "${version}",
-  "name": "Unsaddleeeee",
-  "description": "Unsaddle pigs and striders... That's it, the whole mod :v).",
+
+  "name": "Unsaddle",
+  "description": "Allows for the removal of saddles from striders and pigs.",
   "authors": [
-    "alkyaLy"
+    {
+      "name": "thegiggitybyte",
+      "contact": {
+        "homepage": "https://discord.gg/UPKuVWgU4G",
+        "discord": "https://discord.gg/UPKuVWgU4G"
+      }
+    },
+    {
+      "name": "alkyaly",
+      "contact": {
+        "sources": "https://github.com/alkyaly/Unsaddleeeee"
+      }
+    }
   ],
+
   "contact": {
-    "sources": "https://github.com/alkyaly/Unsaddleeeee",
-    "issues": "https://github.com/alkyaly/Unsaddleeeee/issues"
+    "homepage": "https://discord.gg/UPKuVWgU4G",
+    "discord": "https://discord.gg/UPKuVWgU4G",
+    "sources": "https://github.com/Giggitybyte/Unsaddle",
+    "issues": "https://github.com/Giggitybyte/Unsaddle/issues"
   },
-  "license": "MIT",
-  "environment": "*",
+
+  "license": "MPL 2.0",
+  "environment": "server",
 
   "mixins": [
-    "unsaddleeeee.mixins.json"
+    "unsaddle.mixins.json"
   ],
+
   "depends": {
     "fabricloader": "*",
     "minecraft": ">=1.17",
-    "java": ">=16"
+    "java": ">=17"
   }
 }
